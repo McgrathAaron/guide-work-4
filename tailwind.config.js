@@ -26,11 +26,8 @@ export default {
         montserrat: [ "Montserrat", "sans-serif" ]
       },
       content: {
-        evolevtext: "url('./assets/Evolevtext.png')",
-        evolevtext: "url('./assets/Evolevtext.png')",
-        evolevtext: "url('./assets/Evolevtext.png')",
-        evolevtext: "url('./assets/Evolevtext.png')",
-    },
+        logorma: "url('./assets/HomePageTextBG.svg')",
+      },
   },
   screens:{
     xs: "480px",
