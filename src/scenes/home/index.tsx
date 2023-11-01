@@ -7,6 +7,7 @@ import Pablo from "@/assets/Pablo.svg";
 import Natgood from "@/assets/Natgood.jpeg";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import useMediaQuery from "@/hooks/useMediaQuery";
+import JokeComponent from "@/components/JokeComponent";
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
@@ -22,6 +23,7 @@ const Home = ({setSelectedPage }: Props) => {
         className="gap-16 bg-gray-20 py-10 md:h-full md:pb-0"
     >
         {/*Image and Main Header*/}
+        <JokeComponent />
         <div className="md:flex mx-auto w-5/6 items-center justify-center md:h-5/6">
           {/* Main Header*/}
             <div className="z-10 mt-32 md:basis-3/5">

@@ -63,7 +63,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                             </div>
                         ) : (
                             <button
-                                className="rounded-full bg-secondary-500 p-2 focus:outline-none hover:bg-primary-500 transition duration-300 ease-in-out transform hover:scale-105"
+                                className="rounded-full bg-secondary-500 p-4 focus:outline-none hover:bg-primary-500 transition duration-300 ease-in-out transform hover:scale-105"
                                 onClick={() => setIsMenuToggled(!isMenuToggled)}
                             >
                                 <Bars3Icon className="h-6 w-6 text-white" />
@@ -80,7 +80,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
                     <div className={`${flexBetween} flex justify-end p-12`}>
                         <img alt="logo" src={Logo} />
                         <button
-                            className="rounded-full bg-white p-2 focus:outline-none transition duration-300 ease-in-out transform hover:scale-105" 
+                            className="rounded-full bg-white p-4 focus:outline-none transition duration-300 ease-in-out transform hover:scale-105" 
                             onClick={() => setIsMenuToggled(!isMenuToggled) }>
                             <XMarkIcon className="h-6 w-6 text-secondary-500" />
                         </button>
